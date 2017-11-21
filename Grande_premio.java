@@ -10,7 +10,9 @@ public class Grande_premio {
     public static void main(String[] args) {
     String nome_ficheiro;    
     nome_ficheiro=JOptionPane.showInputDialog("introduza o nome do ficheiro");
-    Scanner in=new Scanner(new File(“nome_ficheiro”));   
+    Scanner in=new Scanner("");   
+    System.out.println("THIS BETTER BE WORKING!!");
     }
     
+   
 }
